@@ -68,6 +68,7 @@ export default function Register() {
           required
         />
         <button type="submit">Register</button>
+        <p>You may receive an email to validate your account</p>
         {error && <p style={{ color: "red" }}>{error}</p>}
       </form>
       <p style={{ marginTop: "1rem" }}>
